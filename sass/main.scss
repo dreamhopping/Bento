@@ -22,6 +22,7 @@ $bp-smallest: 31.25em;
     --fg: #3a3a3a;
 
     --imgbg: url(/img/wal.jpg);
+    --imgGoogle: url('../icons/google-iconWhite.png');
 
 
     --imgcol: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
@@ -36,11 +37,13 @@ $bp-smallest: 31.25em;
     --accent: #186efd60;
     
 
-    --bg: #1e1f21;
+    --bg: #666769;
     --sbg: #2c2d31;
     --fg: #d8dee9;
 
     --imgcol: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    --imgGoogle: url('../icons/google-iconDark.png');
+    
 }
 
 * {
@@ -83,13 +86,50 @@ body {
 
     -webkit-appearance: none;
     -moz-appearance: none;
+    
 }
+
+#phpaction{
+    display: flex;
+
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    
+    
+    #searchtxt {
+        border: 0.5px var(--fg) solid;
+        box-shadow: 0 5px 7px rgba(#000000, 0.35);
+        border-radius: 5px;
+
+
+        background: var(--bg) var(--imgGoogle);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: left 8px top 9px;
+        
+
+ 
+        width: 500px;
+        height: 50px;
+        color: var(--fg);
+        padding-left: 50px;
+        font-size: 14px;
+
+        &:focus{
+            border: 0.5px var(--accent) solid;    
+        }
+    }
+}
+
+
 
 .bicon {
     width: 26px;
     height: 26px;
 }
 .container {
+    margin-top: 50px;
     width: 150vh;
     height: 85vh;
     display: grid;
