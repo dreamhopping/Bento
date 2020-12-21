@@ -21,6 +21,8 @@ $bp-smallest: 31.25em;
     --sbg: #e4e6e6;
     --fg: #3a3a3a;
 
+    --searchBoxColor:rgba(228, 230, 230, 0.007);
+
     --imgbg: url(/img/wal.jpg);
     --imgGoogle: url('../icons/google-iconWhite.png');
 
@@ -40,6 +42,8 @@ $bp-smallest: 31.25em;
     --bg: #666769;
     --sbg: #2c2d31;
     --fg: #d8dee9;
+
+    --searchBoxColor:#2f2f3034;
 
     --imgcol: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     --imgGoogle: url('../icons/google-iconDark.png');
@@ -91,19 +95,17 @@ body {
 
 #phpaction{
     display: flex;
-
-    position: absolute;
-    top: 50px;
-    bottom: 50px;
     
     
     #searchtxt {
+        margin-top:40px;
+        margin-bottom: 30px;
         border: 0.5px var(--fg) solid;
         box-shadow: 0 5px 7px rgba(#000000, 0.35);
         border-radius: 5px;
 
 
-        background: var(--bg) var(--imgGoogle);
+        background: var(--searchBoxColor) var(--imgGoogle);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: left 8px top 9px;
@@ -128,8 +130,8 @@ body {
     width: 26px;
     height: 26px;
 }
+
 .container {
-    margin-top: 50px;
     width: 150vh;
     height: 85vh;
     display: grid;
