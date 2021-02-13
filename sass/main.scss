@@ -65,7 +65,7 @@ body {
     height: 100vh;
     background-color: var(--bg);
 
-    background-image: var(--imgcol), var(--imgbg);
+    background-image: var(--imgcol); //, var(--imgbg)
 
     display: flex;
     align-items: center;
@@ -118,8 +118,9 @@ body {
         padding-left: 50px;
         font-size: 14px;
 
-        &:focus{
-            border: 0.5px var(--accent) solid;    
+        &:focus,&:active{
+            outline: none;
+            border-color: var(--accent); 
         }
     }
 }

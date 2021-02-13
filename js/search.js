@@ -6,3 +6,11 @@ searchBox.addEventListener('keypress',(e)=>{
         setTimeout(()=>{searchBox.value=""},1000);
     }
 });
+
+
+
+searchBox.addEventListener('keydown',(e)=>{
+    if(searchBox.value=="f" && e.key=="b"){
+        window.open('https://www.facebook.com',"_self");
+    }
+})
