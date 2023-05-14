@@ -23,17 +23,18 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: '0a12c026cbbd45e776ad85a6e21b823b', // Write here your API Key
+	weatherKey: '60d7cdce0bf078058c0df9aab6d7f1cf', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+
+	defaultLatitude: '52.498613',
+	defaultLongitude: '-1.762040',
 
 	// Autochange
 	autoChangeTheme: true,
