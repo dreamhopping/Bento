@@ -117,9 +117,9 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			name: 'Soundcloud',
+			icon: 'music-2',
+			link: 'https://soundcloud.com/',
 		},
 		{
 			id: '6',
