@@ -62,7 +62,7 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/mail/u/0/#inbox',
 		},
 		{
 			id: '3',
@@ -86,7 +86,7 @@ const CONFIG = {
 			id: '6',
 			name: 'YouTube',
 			icon: 'youtube',
-			link: 'https://youtube.com/',
+			link: 'https://youtube.com',
 		},
 	],
 
@@ -119,13 +119,13 @@ const CONFIG = {
 			id: '5',
 			name: 'Soundcloud',
 			icon: 'music-2',
-			link: 'https://soundcloud.com/',
+			link: 'https://soundcloud.com',
 		},
 		{
 			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			name: 'fmscout',
+			icon: 'trophy',
+			link: 'https://www.fmscout.com',
 		},
 	],
 
